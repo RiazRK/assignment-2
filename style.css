@@ -48,20 +48,31 @@ margin-bottom: 10px;
   }
   /* anchor button */
 .start-item a{
-  position: absolute;
+  position:absolute;
 width: 196px;
 height: 44px;
 left: 120px;
 top: 550px;
-text-align: center;
-background: #E02C6D;
-border-radius: 41px;
-color: white;
-text-decoration: none;
+
+}
+.prebook{
+position: static;
+width: 116px;
+height: 24px;
+left: 24px;
+top: 10px;
 font-weight: bold;
 font-size: 16px;
 line-height: 24px;
-
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 8px;
+text-align: center;
+background: #E02C6D;
+border-radius: 41px;
+text-decoration: none;
 }
 /* camera image */
 .start-item img{
